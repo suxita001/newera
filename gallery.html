@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ახალი ერა • ქრისტიანული ახალგაზრდული ბანაკი</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/logo.jpg">
+</head>
+<body>
+<header class="site-header glass">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.jpg" alt="New Era Camp Logo">
+      <span>ახალი ერა</span>
+    </a>
+    <button class="menu-toggle" aria-label="მენიუს გახსნა" onclick="document.body.classList.toggle('menu-open')">&#9776;</button>
+    <nav class="navbar">
+      <a href="index.html">მთავარი</a>
+      <a href="about.html">ჩვენს შესახებ</a>
+      <a href="camps.html">ბანაკები</a>
+      <a href="gallery.html">გალერეა</a>
+      <a class="btn" href="register.html">რეგისტრაცია</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<section class="page-head container">
+  <h1>გალერეა</h1>
+  <p>წინა ბანაკების მომენტები.</p>
+</section>
+
+<section class="container gallery">
+  <!-- Replace sample images with your real photos -->
+  <img src="assets/1.jpg" alt="სლაიდი 1">
+  <img src="assets/4.jpg" alt="სლაიდი 4">
+  <img src="assets/5.jpg" alt="სლაიდი 5">
+  <img src="assets/6.jpg" alt="სლაიდი 6">
+  <img src="assets/8.jpg" alt="სლაიდი 8">
+  <img src="assets/5.jpg" alt="სლაიდი 5">
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>ახალი ერა</h4>
+      <p>ქრისტიანული ახალგაზრდული ბანაკი — ზაფხულიც და ზამთარიც.</p>
+    </div>
+    <div>
+      <h4>სატელეფონო/სოციალური</h4>
+      <ul>
+        <li>ტელ: +995 5XX XXX XXX</li>
+        <li>Instagram: @neweracamp</li>
+        <li>Facebook: New Era Camp</li>
+      </ul>
+    </div>
+    <div>
+      <h4>კონტაქტი</h4>
+      <p>ელ-ფოსტა: hello@neweracamp.ge</p>
+      <a class="btn-outline" href="register.html">რეგისტრაცია</a>
+    </div>
+  </div>
+  <div class="copy">© <span id="y"></span> ახალი ერა • ყველა უფლება დაცულია</div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

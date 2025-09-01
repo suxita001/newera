@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ახალი ერა • ქრისტიანული ახალგაზრდული ბანაკი</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/logo.jpg">
+</head>
+<body>
+<header class="site-header glass">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.jpg" alt="New Era Camp Logo">
+      <span>ახალი ერა</span>
+    </a>
+    <button class="menu-toggle" aria-label="მენიუს გახსნა" onclick="document.body.classList.toggle('menu-open')">&#9776;</button>
+    <nav class="navbar">
+      <a href="index.html">მთავარი</a>
+      <a href="about.html">ჩვენს შესახებ</a>
+      <a href="camps.html">ბანაკები</a>
+      <a href="gallery.html">გალერეა</a>
+      <a class="btn" href="register.html">რეგისტრაცია</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<section class="page-head container">
+  <h1>ბანაკები</h1>
+  <p>დაგეგმილი სეზონები, ჩასათვლელი ნივთები და ფასები.</p>
+</section>
+
+<section class="container grid-2" id="summer">
+  <div class="card big">
+    <h3>ზაფხულის ბანაკი</h3>
+    <p>თარიღები: ივლისი–აგვისტო • ხანგრძლივობა: 6–7 დღე</p>
+    <ul class="checklist">
+      <li>საცხოვრებელი და სამჯერადი კვება</li>
+      <li>სულიერი პროგრამა და სპორტული აქტივობები</li>
+      <li>ექუსკურსია / ლაშქრობა</li>
+    </ul>
+    <div class="price">ფასი:  XXX GEL</div>
+    <a class="btn" href="register.html">დაჯავშნე ადგილი</a>
+  </div>
+  <div class="card big" id="winter">
+    <h3>ზამთრის ბანაკი</h3>
+    <p>თარიღები: იანვარი–თებერვალი • ხანგრძლივობა: 4–5 დღე</p>
+    <ul class="checklist">
+      <li>ტრენინგები და თბილი სამყარო</li>
+      <li>თემატური საღამოები</li>
+      <li>სნოუბოლები და ზამთრის თამაშები</li>
+    </ul>
+    <div class="price">ფასი:  XXX GEL</div>
+    <a class="btn" href="register.html">დაჯავშნე ადგილი</a>
+  </div>
+</section>
+
+<section class="container card">
+  <h3>რა უნდა წამოიღო</h3>
+  <ul class="bullets">
+    <li>ბიბლია, წერილობის ბლოკნოტი და კალამი</li>
+    <li>სპორტული ტანსაცმელი და კომფორტული ფეხსაცმელი</li>
+    <li>პირადი ჰიგიენის ნივთები</li>
+    <li>თბილი ტანსაცმელი (ზამთრის ბანაკისთვის)</li>
+  </ul>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>ახალი ერა</h4>
+      <p>ქრისტიანული ახალგაზრდული ბანაკი — ზაფხულიც და ზამთარიც.</p>
+    </div>
+    <div>
+      <h4>სატელეფონო/სოციალური</h4>
+      <ul>
+        <li>ტელ: +995 5XX XXX XXX</li>
+        <li>Instagram: @neweracamp</li>
+        <li>Facebook: New Era Camp</li>
+      </ul>
+    </div>
+    <div>
+      <h4>კონტაქტი</h4>
+      <p>ელ-ფოსტა: hello@neweracamp.ge</p>
+      <a class="btn-outline" href="register.html">რეგისტრაცია</a>
+    </div>
+  </div>
+  <div class="copy">© <span id="y"></span> ახალი ერა • ყველა უფლება დაცულია</div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

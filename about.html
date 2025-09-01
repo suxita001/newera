@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ახალი ერა • ქრისტიანული ახალგაზრდული ბანაკი</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/logo.jpg">
+</head>
+<body>
+<header class="site-header glass">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.jpg" alt="New Era Camp Logo">
+      <span>ახალი ერა</span>
+    </a>
+    <button class="menu-toggle" aria-label="მენიუს გახსნა" onclick="document.body.classList.toggle('menu-open')">&#9776;</button>
+    <nav class="navbar">
+      <a href="index.html">მთავარი</a>
+      <a href="about.html">ჩვენს შესახებ</a>
+      <a href="camps.html">ბანაკები</a>
+      <a href="gallery.html">გალერეა</a>
+      <a class="btn" href="register.html">რეგისტრაცია</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<section class="page-head container">
+  <h1>ჩვენს შესახებ</h1>
+  <p>„ახალი ერა“ — ქრისტიანული ახალგაზრდული ბანაკი, რომელიც ეხმარება ახალგაზრდა თაობას განიცადონ ღმერთის სიყვარული, ჩამოაყალიბონ ჯანმრთელი ფასეულობები და აღმოაჩინონ თავიანთი მოწოდება.</p>
+</section>
+
+<section class="container grid-2">
+  <div class="card">
+    <h3>ხედვა</h3>
+    <p>შევქმნათ თბილი და უსაფრთხო გარემო, სადაც ახალგაზრდები სწავლობენ ლიდერობას, მომსახურებას და ურთიერთპატივისცემას.</p>
+  </div>
+  <div class="card">
+    <h3>ღირებულებები</h3>
+    <ul class="checklist">
+      <li>რწმენა ქრისტეში</li>
+      <li>ერთობა და მეგობრობა</li>
+      <li>პასუხისმგებლობა და უსაფრთხოება</li>
+      <li>სიხარული და შემოქმედება</li>
+    </ul>
+  </div>
+</section>
+
+<section class="container grid-3">
+  <div class="card">
+    <h3>ლიდერები</h3>
+    <p>გამოცდილი მენტორები და მოხალისეები, რომლებიც ზრუნავენ თითოეულ მონაწილეზე.</p>
+  </div>
+  <div class="card">
+    <h3>ადგილმდებარეობა</h3>
+    <p>საქართველოს სხვადასხვა ლოკაციაზე — დეტალები გამოცხადდება რეგისტრაციის შემდეგ.</p>
+  </div>
+  <div class="card">
+    <h3>ეკლესიური კავშირი</h3>
+    <p>თანამშრომლობა ადგილობრივ ეკლესიებთან და ახალგაზრდულ ჯგუფებთან.</p>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>ახალი ერა</h4>
+      <p>ქრისტიანული ახალგაზრდული ბანაკი — ზაფხულიც და ზამთარიც.</p>
+    </div>
+    <div>
+      <h4>სატელეფონო/სოციალური</h4>
+      <ul>
+        <li>ტელ: +995 5XX XXX XXX</li>
+        <li>Instagram: @neweracamp</li>
+        <li>Facebook: New Era Camp</li>
+      </ul>
+    </div>
+    <div>
+      <h4>კონტაქტი</h4>
+      <p>ელ-ფოსტა: hello@neweracamp.ge</p>
+      <a class="btn-outline" href="register.html">რეგისტრაცია</a>
+    </div>
+  </div>
+  <div class="copy">© <span id="y"></span> ახალი ერა • ყველა უფლება დაცულია</div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
